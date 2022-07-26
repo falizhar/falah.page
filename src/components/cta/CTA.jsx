@@ -8,14 +8,13 @@ const CTA = () => (
       <h3>Contact me today & start the endless possibilities.</h3>
     </div>
     <div className="cta-btn">
-      <button type="button">
-        <a
-          href="https://api.whatsapp.com/send/?phone=6287773744040&text=Hi%20Falah,%20I%20have%20visited%20your%20website.%20Let%27s%20connect%21&type=phone_number"
-          target="_blank"
-          rel="noopener noreferrer"
-        > WhatsApp
-        </a>
-      </button>
+      <a
+        href="https://api.whatsapp.com/send/?phone=6287773744040&text=Hi%20Falah,%20I%20have%20visited%20your%20website.%20Let%27s%20connect%21&type=phone_number"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button">WhatsApp</button>
+      </a>
     </div>
   </div>
 );

@@ -63,8 +63,8 @@
 
 .header-content__input button {
     flex: 0.6;
-    min-width: 25%;
-    max-width: 60%;
+    min-width: 30em;
+    max-width: 60em;
     min-height: 8vmin;
     font-family: var(--font-family);
     font-weight: 720;
